@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	<form action="/mileage-results">
+	<form action="/mileage-result">
 		<p>
 			Mileage (MPG): <input type="number" name="mpg" />
 		</p>
