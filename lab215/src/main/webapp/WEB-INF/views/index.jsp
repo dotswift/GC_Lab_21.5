@@ -16,10 +16,10 @@
 	
 	<a href="/oil-calc"> Calculate your Oil Change Data </a>
 	<br>
-	<a href="/roadtrip-games"> Fun Games for Backseat Drivers</a>
+	<a href="/roadtrip-games"> Mad Libs for Backseat Drivers</a>
 	<br>
 	
-	<a href="/places-to-go"> Where Can You Go?</a>
+	<a href="/are-we-there"> Are We There Yet?</a>
 	
 	
 

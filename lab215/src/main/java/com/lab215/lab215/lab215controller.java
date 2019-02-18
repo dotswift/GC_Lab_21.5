@@ -50,5 +50,36 @@ public class lab215controller {
 		mav.addObject("cost", cost);
 		return mav;
 	}
+	
+	@RequestMapping("/roadtrip-games")
+	public ModelAndView showGames() {
+		ModelAndView mav = new ModelAndView("roadtrip-games");
+		return mav;
+	}
+
+	@RequestMapping("/roadtrip-games-result")
+	public ModelAndView showGamesResult(@RequestParam("adj") String adj, @RequestParam("noun") String noun) {
+		ModelAndView mav = new ModelAndView("roadtrip-games-result");
+		mav.addObject("adj", adj);
+		mav.addObject("noun", noun);
+		return mav;
+	}
+	
+	@RequestMapping("/are-we-there")
+	public ModelAndView showAreWeThere() {
+		ModelAndView mav = new ModelAndView("are-we-there");
+		return mav;
+	}
+	@RequestMapping("are-we-there-result")
+	public ModelAndView showAreWeThereResult(@RequestParam("word") String word, @RequestParam("repeat") int repeat) {
+		ModelAndView mav = new ModelAndView("are-we-there-result");
+		mav.addObject("word", word);
+		mav.addObject("repeat",repeat);
+		
+		
+		
+		
+		return mav;
+	}
 
 }

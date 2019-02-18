@@ -4,17 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Are We There Yet???????</title>
 </head>
 <body>
-
-<h3>Result</h3>
-	<p>${ mpg } * ${ gallons } = ${ result }</p>
-	<p>
-		<a href="/">Back Home</a>
-	</p>
-	
-	get cheap gas with gasbuddy.com
 
 </body>
 </html>

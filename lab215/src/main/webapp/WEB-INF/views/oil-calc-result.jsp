@@ -19,5 +19,7 @@ Oil Cost: $${ cost }
 <br>
 </p>
 
+<a href="\">Back Home</a>
+
 </body>
 </html>
