@@ -8,5 +8,13 @@
 </head>
 <body>
 
+
+
+<i>Read this aloud to annoy your fellow passengers</i>
+<br>
+<a href="\">Back Home</a>
+<p>
+${ repeatWord }
+</p>
 </body>
 </html>

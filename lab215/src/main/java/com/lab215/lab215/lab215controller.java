@@ -73,11 +73,18 @@ public class lab215controller {
 	@RequestMapping("are-we-there-result")
 	public ModelAndView showAreWeThereResult(@RequestParam("word") String word, @RequestParam("repeat") int repeat) {
 		ModelAndView mav = new ModelAndView("are-we-there-result");
+		String repeatWord ="";
 		mav.addObject("word", word);
 		mav.addObject("repeat",repeat);
 		
 		
+		for (int i = 0; i<repeat;i++ ) {
+			
+			repeatWord = repeatWord +" "+ word;
+			
+		}
 		
+		mav.addObject("repeatWord",repeatWord);
 		
 		return mav;
 	}
