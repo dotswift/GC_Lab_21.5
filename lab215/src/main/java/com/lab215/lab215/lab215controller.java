@@ -21,6 +21,11 @@ public class lab215controller {
 		return new ModelAndView("/mileage-form");
 	}
 
+	@RequestMapping("/oil-calc")
+	public ModelAndView showMilesPerGallon() {
+		return new ModelAndView("/oil-calc");
+	}
+
 	@RequestMapping("/mileage-result")
 	public ModelAndView showMileageResult(@RequestParam("mpg") int mpg, @RequestParam("gallons") int gallons) {
 		int result = mpg * gallons;
@@ -29,6 +34,20 @@ public class lab215controller {
 		mav.addObject("mpg", mpg);
 		mav.addObject("gallons", gallons);
 		mav.addObject("result", result);
+		return mav;
+	}
+
+	@RequestMapping("/oil-calc-result")
+	public ModelAndView showOilResult(@RequestParam("oilGallons") int oilGallons) {
+		int result = oilGallons / 5;
+		int donation = oilGallons % 5;
+		double cost = oilGallons * 4.25;
+
+		ModelAndView mav = new ModelAndView("oil-calc-result");
+		mav.addObject("oilGallons", oilGallons);
+		mav.addObject("donation", donation);
+		mav.addObject("result", result);
+		mav.addObject("cost", cost);
 		return mav;
 	}
 

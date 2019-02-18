@@ -9,9 +9,19 @@
 </head>
 <body>
 
-<p>Click below for Mileage Form</p>
+<p>Welcome to the Car Web App</p>
 
 	<a href="/mileage-form" >Mileage Form</a>
+	<br>
+	
+	<a href="/oil-calc"> Calculate your Oil Change Data </a>
+	<br>
+	<a href="/roadtrip-games"> Fun Games for Backseat Drivers</a>
+	<br>
+	
+	<a href="/places-to-go"> Where Can You Go?</a>
+	
+	
 
 </body>
 </html>
