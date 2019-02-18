@@ -3,7 +3,7 @@ package com.lab215.lab215;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
+	import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class lab215controller {
